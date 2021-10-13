@@ -1,6 +1,17 @@
+body {
+    background-color: whitesmoke;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    
+}
+
+#navbar {
+    font-weight: bold;
+    float: right;
+    display: inline-block;
 }
 
 #headerlogo {
@@ -12,9 +23,11 @@ font-size: medium;
 }
 
 .logo {
-    width: 23%;
+    width: 20%;
     padding: 1%;
     display: inline-block;
+    font-size: auto;
+    
 }
 
 nav {
@@ -23,9 +36,11 @@ nav {
 }
 
 ul {
-    width: 50%;
+    
+    width: 30%;
     margin-left: auto;
     text-decoration: none;
+    
 }
 
 li {
@@ -62,10 +77,19 @@ footer {
 display: inline-block;
 text-align: center;
 vertical-align: top;
+justify-content: space-between;
 padding: 1%;
 color: white;
 }
 
 h1, h2, p, li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: large;
+}
+
+h2 {
+    font-size: medium;
 }
